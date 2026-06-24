@@ -121,6 +121,7 @@ async (e) => {
                 e.target.files[0]
               )
             }
+            className="w-full p-3 rounded mb-4 bg-zinc-800 text-white border border-zinc-700"
           />
 
           <button
