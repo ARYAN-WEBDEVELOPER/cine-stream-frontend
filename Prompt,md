@@ -1,0 +1,113 @@
+# CineStream - Project Prompt
+
+## Project Goal
+
+Build a full-stack movie recommendation platform where users can:
+
+* Search movies
+* Save favorite movies
+* Write reviews
+* Upload profile images
+* Store data permanently in MongoDB Atlas
+
+---
+
+## Functional Requirements
+
+### Movie Search
+
+* Integrate TMDB API
+* Display popular movies
+* Search movies by title
+
+### Favorites
+
+* Add favorite movies
+* Remove favorite movies
+* Store favorites in MongoDB
+
+### Reviews
+
+* Create reviews
+* Read reviews
+* Delete reviews
+
+### User Profile
+
+* Upload profile image
+* Store image in Cloudinary
+* Save user details in MongoDB
+
+---
+
+## Technical Requirements
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
+* React Router
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* Multer
+* Cloudinary
+
+### Deployment
+
+* Frontend: Vercel
+* Backend: Render
+* Database: MongoDB Atlas
+
+---
+
+## API Modules
+
+### Profile API
+
+* Upload profile
+* Update profile
+
+### Favorites API
+
+* Create favorite
+* Get favorites
+* Delete favorite
+
+### Reviews API
+
+* Create review
+* Get reviews
+* Delete review
+
+---
+
+## Learning Objectives
+
+* Understand full-stack architecture
+* Build RESTful APIs
+* Integrate third-party APIs
+* Handle file uploads
+* Work with cloud databases
+* Deploy production-ready applications
+* Manage environment variables
+* Follow GitHub workflow
+
+---
+
+## Success Criteria
+
+* Frontend deployed successfully
+* Backend deployed successfully
+* MongoDB Atlas connected
+* Cloudinary integration working
+* Favorites working
+* Reviews working
+* Profile upload working
+* TMDB movie search working
