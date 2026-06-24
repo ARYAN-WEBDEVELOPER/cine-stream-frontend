@@ -1,16 +1,169 @@
-# React + Vite
+# 🎬 CineStream
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack movie recommendation application built with React, Node.js, Express, MongoDB Atlas, Cloudinary, and TMDB API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
 
-## React Compiler
+https://cine-stream-frontend-snowy.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
 
-## Expanding the ESLint configuration
+https://cine-stream-backend-lwzn.onrender.com/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### 🎥 Movies
+
+* Search movies using TMDB API
+* Browse popular movies
+* View movie details
+
+### ❤️ Favorites
+
+* Add movies to favorites
+* Remove movies from favorites
+* Store favorites in MongoDB
+
+### ⭐ Reviews
+
+* Create reviews
+* Read reviews
+* Delete reviews
+
+### 👤 Profile
+
+* Upload profile image
+* Store profile information
+* Cloudinary image hosting
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
+* React Router DOM
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB Atlas
+* Mongoose
+* Multer
+* Cloudinary
+
+### APIs
+
+* TMDB API
+
+---
+
+## 📁 Project Structure
+
+```text
+CineStream/
+├── frontend/
+└── backend/
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+### Frontend (.env)
+
+```env
+VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+VITE_API_URL=http://localhost:5000
+```
+
+### Backend (.env)
+
+```env
+PORT=5000
+MONGO_URI=YOUR_MONGODB_URI
+CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_NAME
+CLOUDINARY_API_KEY=YOUR_CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET=YOUR_CLOUDINARY_API_SECRET
+```
+
+---
+
+## 📡 API Endpoints
+
+### Profile
+
+```http
+POST /api/profile/upload
+```
+
+### Favorites
+
+```http
+GET /api/favorites
+POST /api/favorites
+DELETE /api/favorites/:id
+```
+
+### Reviews
+
+```http
+GET /api/reviews
+POST /api/reviews
+DELETE /api/reviews/:id
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+* REST API Development
+* MongoDB Atlas Integration
+* Cloudinary Image Uploads
+* Environment Variables
+* Frontend-Backend Integration
+* Full-Stack Deployment
+* Git & GitHub Workflow
+
+---
+
+## 👨‍💻 Author
+
+Aryan
+
+First Full-Stack Project 🚀
