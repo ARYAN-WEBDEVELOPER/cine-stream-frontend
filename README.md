@@ -2,6 +2,10 @@
 
 A full-stack movie recommendation application built with React, Node.js, Express, MongoDB Atlas, Cloudinary, and TMDB API.
 
+### Backend Repository
+
+https://github.com/ARYAN-WEBDEVELOPER/cine-stream-backend
+
 ## 🚀 Live Demo
 
 ### Frontend
